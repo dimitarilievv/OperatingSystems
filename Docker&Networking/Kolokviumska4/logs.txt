@@ -1,0 +1,17 @@
+Client:MAIL FROM: dimi@gmail.com
+Client:MAIL TO:bube@gmail.com
+Client:SUBJECT:BAZI OPERATIVNI
+Client:nina
+Client:dimi
+Client:BYE
+Client:MAIL FROM: dimi@gmail.com
+Client:MAIL TO:bube@gmail.com
+Client:SUBJECT:BAZI OPERATIVNI
+Client:nina
+Client:hahah
+Client:BYE
+Client:MAIL FROM: dimi@gmail.com
+Client:MAIL TO:bube@gmail.com
+Client:SUBJECT:BAZI OPERATIVNI
+Client:nina
+Client:BYE

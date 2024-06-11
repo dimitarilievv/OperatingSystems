@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  tcpserver:
+    build:
+      context: ./tcpserver
+      dockerfile: Dockerfile
+    ports:
+      - "5432:5432/tcp"
+    networks:
+      - tcp
+  tcpclient:
+    build:
+      context: ./tcpclient
+      dockerfile: Dockerfile
+    ports:
+      - "5433:5433/tcp"
+    networks:
+      - tcp
+    depends_on:
+      - tcpserver
+    stdin_open: true
+    tty: true
+networks:
+  tcp:
+    driver: bridge
